@@ -3,7 +3,8 @@ import React from 'react'
 import "./SignUp.css"
 import { signUpData } from '../../ProjectData/SignUpData';
 import { Link } from 'react-router-dom';
-
+import "./SignUpMobile.css";
+import "./SignUpTablet.css"
 
 
 

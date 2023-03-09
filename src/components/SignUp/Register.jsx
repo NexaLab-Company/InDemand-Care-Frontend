@@ -3,6 +3,8 @@ import Layout from 'antd/es/layout/layout';
 import React from 'react'
 import { Link, useParams } from 'react-router-dom';
 import "./Register.css";
+import "./RegisterMobile.css";
+import "./RegisterTablet.css"
 
 
 

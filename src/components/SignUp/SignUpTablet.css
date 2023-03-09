@@ -1,0 +1,48 @@
+
+
+@media screen and ( max-width : 1099px ) and ( min-width: 500px ) {
+
+
+
+
+
+
+    #signup-cards-container {
+
+
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        height: fit-content !important;
+        padding-bottom: 30px !important;
+
+    }
+
+
+
+
+
+
+
+
+
+    #sign-up-cards {
+
+
+        margin-top: 50px !important;
+    }
+
+
+
+
+
+
+
+    #signup-layout {
+
+        height: fit-content !important;
+    }
+
+
+}

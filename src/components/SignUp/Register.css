@@ -249,6 +249,8 @@
    font-size: 0.875rem  !important;
    background: #C72C41 !important;
    margin-bottom: 30px !important;
+   box-shadow: 3px 3px 5px 1.5px lightgray;
+
 }
 
 
