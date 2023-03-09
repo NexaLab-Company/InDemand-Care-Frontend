@@ -1,25 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Test from './components/Test/Test';
-
-
-
-
+import Login from './components/Login/Login';
 
 function App() {
-
-
   return (
-
     <div className="App">
-
-      <Test/>
-
+      <Login />
     </div>
-
-
   );
-
-};
+}
 
 export default App;
