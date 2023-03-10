@@ -1,0 +1,24 @@
+
+
+@media ( max-width : 499px ) {
+
+
+
+
+    #income-expense-heading {
+
+        font-size: 18px !important;
+    }
+    
+
+
+
+
+
+
+    #current-year-heading {
+
+        font-size: 15.5px !important;
+
+    }
+}
