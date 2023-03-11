@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import Test from './components/Test/Test';
+import DashboardOverviewCards from './components/Dashboard-overview-cards/DashboardOverviewCards';
 
 
 
@@ -13,7 +12,7 @@ function App() {
 
     <div className="App">
 
-      <Test/>
+      <DashboardOverviewCards />
 
     </div>
 
