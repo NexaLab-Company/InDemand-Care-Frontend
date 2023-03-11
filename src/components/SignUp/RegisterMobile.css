@@ -1,0 +1,27 @@
+
+
+
+@media ( max-width : 499px) {
+
+
+
+
+
+    #register-img-container {
+
+        display: none !important;
+    }
+
+
+
+
+
+
+
+     #register-layout {
+
+
+        height: fit-content !important;
+      }
+    
+}
