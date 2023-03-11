@@ -151,7 +151,7 @@ function IncomeExpense() {
 
 
 
-    
+
 
 
 
@@ -166,7 +166,7 @@ function IncomeExpense() {
         xField: 'month',
         yField: 'value',
         seriesField: 'name',
-        data: incomeAndExpenseState ,
+        data: incomeAndExpenseState,
 
         /** 设置颜色 */
         //color: ['#1ca9e6', '#f88c24'],
@@ -218,7 +218,7 @@ function IncomeExpense() {
         const { data } = await DashboardService.getIncomeAndExpenseOfCurrentYear();
 
 
-        for (let i = 0; i < data.data.incomeOfCurrentYear.length; i++) {
+        for (let i = 0; i < 12; i++) {
 
 
 
@@ -236,7 +236,7 @@ function IncomeExpense() {
 
 
 
-        for (let i = 0; i < data.data.expenseOfCurrentYear.length; i++) {
+        for (let i = 0; i < 12; i++) {
 
 
 
@@ -259,7 +259,7 @@ function IncomeExpense() {
 
 
 
-    
+
 
 
 
