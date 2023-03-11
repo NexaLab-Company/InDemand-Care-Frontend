@@ -19,8 +19,6 @@ function Register() {
 
 
 
-  const { title } = useParams();
-
 
 
 
