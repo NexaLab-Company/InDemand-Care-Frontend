@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import Test from './components/Test/Test';
+import ProjectBar from './components/ProjectBar/ProjectBar';
 
 
 
@@ -13,7 +12,7 @@ function App() {
 
     <div className="App">
 
-      <Test/>
+      <ProjectBar/>
 
     </div>
 
