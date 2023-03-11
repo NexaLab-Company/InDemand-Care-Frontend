@@ -26,10 +26,10 @@ function Login() {
                     <a style={{fontSize: "12px", color: "#000000"}} type="text">Forgot your Password?</a>
                 </div>
                 <div className="login-button-container">
-                    <Button type="primary" style={{width: "100%", fontSize: "15px", backgroundColor: "#00FF00", marginTop: "10px"}}>Login</Button>
+                    <Button type="primary" style={{width: "100%", fontSize: "0.875rem", backgroundColor: "#61D9AB", marginTop: "10px" ,}}>Login</Button>
                 </div>
                 <div className="register-button-container">
-                    <div style={{fontSize: "15px", marginTop: "10px"}}>Don't have an account? <a style={{color: "#00FF00",}} href="">Register</a> </div>
+                    <div style={{fontSize: "15px", marginTop: "10px"}}>Don't have an account? <a style={{color: "#61D9AB",}} href="">Register</a> </div>
                 </div>
             </div>        
             <div className="buttons-end">
