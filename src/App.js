@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import Test from './components/Test/Test';
-
-
+import SideBar from './components/SideBar/SideBar';
+import { Route , Switch } from 'react-router-dom';
 
 
 
@@ -13,7 +11,11 @@ function App() {
 
     <div className="App">
 
-      <Test/>
+      <Switch>
+        <Route exact path= "/">
+          <SideBar />
+        </Route>
+      </Switch>
 
     </div>
 
