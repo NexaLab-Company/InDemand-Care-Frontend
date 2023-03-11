@@ -1,0 +1,93 @@
+
+
+
+@media ( max-width : 499px ) {
+
+
+
+
+
+    
+    #signup-cards-container {
+
+
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding-bottom: 30px !important;
+        
+
+    }
+
+
+
+
+
+
+
+
+
+    #signup-layout {
+
+
+        height: fit-content !important;
+    }
+
+
+
+
+
+
+
+
+
+
+    #sign-up-cards {
+
+
+        margin-top: 30px !important;
+    }
+
+
+
+
+
+
+
+
+    #sign-up-slogan-heading {
+
+
+        font-size: 35px !important;
+        margin-bottom: 20px !important;
+
+    }
+
+
+
+
+
+
+
+    #sign-up-slogan {
+
+        font-size: 12px !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+
+
+
+
+
+
+    #sign-up-heading {
+
+
+        font-size: 25px !important;
+
+    }
+    
+}

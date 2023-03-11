@@ -1,0 +1,56 @@
+
+
+
+
+
+
+
+@media screen and ( max-width : 1099px ) and ( min-width : 500px ) {
+
+
+
+
+
+    #register-img-container {
+
+        display: none !important;
+    }
+    
+
+
+
+
+
+
+    #register-main-container {
+
+        border: 1px solid red !important;
+    }
+
+
+
+
+
+
+
+    #register-container {
+
+        border: 1px solid blue !important;
+        align-items: center !important;
+        width: 100% !important;
+        padding-left: 0px !important;
+    }
+
+
+
+
+
+
+
+
+    #register-layout {
+
+
+      height: fit-content !important;
+    }
+}
