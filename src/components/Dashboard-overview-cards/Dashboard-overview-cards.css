@@ -1,0 +1,180 @@
+.main {
+    background-color: #ffff;
+}
+
+/* **************************************Heading Div *************************************/
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin-left: 10.2%;
+    
+}
+h4 {
+    margin-bottom: 0;
+    margin-right: 8px;
+    padding-right: 8px;
+    font-weight: 500;
+    font-size: 1.35rem;
+}
+
+
+h3 {
+    margin-top: -5px;
+}
+
+
+
+/********************************************** Media Querires ****************************************/
+
+@media (max-width: 499px) {
+    .row {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: -9% !important;
+    }
+    .card  {
+        width: 160px !important;
+        margin-bottom: 20px !important;
+    }
+    .card-without-margin {
+        width: 160px !important;
+        margin-bottom: 20px !important;
+    }
+    .div {
+    margin-left: -0.05rem !important;
+    padding-left: 10px !important;
+    }
+}
+
+@media (min-width: 412px) and (max-width: 915px) {
+    .row {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 0.001rem !important;
+    }
+    .div {
+        margin-left: 7% !important
+        }
+    
+}
+
+@media (min-width: 500px) and (max-width: 1199px) {
+    .row {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: -9% !important;
+    }
+     .div {
+        margin-left: 15% !important
+        }
+        .card  {
+            width: 240px !important;
+            margin-bottom: 20px !important;
+        }
+        .card-without-margin {
+            width: 240px !important;
+            margin-bottom: 20px !important;
+        }
+}
+
+/* ************************ CARD CSS********************************************************* */
+.row {
+    margin-top: 40px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.internal-div {
+    display: flex;
+     flex-direction: row;
+      justify-content: space-around
+}
+
+.card-without-margin {
+    width: 250px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 5px 1.5px lightgray
+}
+.card {
+    width: 250px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 5px 1.5px lightgray;
+    margin-left: 30%;
+}
+
+
+.card-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.icon-one {
+    background-color: greenyellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    box-shadow: '3px 3px 5px 1.5px lightgray'
+}
+
+.icon-two {
+    background-color: lightseagreen;
+    width: 50px;
+    height: 50px;
+    border-radius: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    box-shadow: '3px 3px 5px 1.5px lightgray'
+}
+.icon-three {
+    background-color: #FFA21D;
+    width: 50px;
+    height: 50px;
+    border-radius: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    box-shadow: '3px 3px 5px 1.5px lightgray'
+}
+
+.icon-four {
+    background-color: #FF3A6E;
+    width: 50px;
+    height: 50px;
+    border-radius: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    box-shadow: '3px 3px 5px 1.5px lightgray'
+}
+
+.count {
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+
+
+
