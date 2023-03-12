@@ -2,8 +2,26 @@
 .table-main{
     width: 100%;
     border-radius: 10px;
-    display: flex;
+    display: flex !important;
+    align-items: center !important;
+    padding-bottom: 100px !important;
 }
+
+
+
+.table-main-container {
+
+    width:95%  !important;
+    display: flex !important;
+    background: #ffffff !important;
+    box-shadow: 3px 3px 5px 1.5px lightgray !important;
+    border: 1px solid #ececec !important;
+
+
+}
+
+
+
 
 #title{
     font-size: 18px;

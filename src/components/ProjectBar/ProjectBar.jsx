@@ -100,42 +100,44 @@ function ProjectBar() {
 
 
 
+            <Layout id='project-bar-main-container'>
 
 
 
-            <Layout id='project-bar-container'>
+                <Layout id='project-bar-container'>
 
 
 
-                <Title level={3} id="project-bar-heading"
+                    <Title level={3} id="project-bar-heading"
 
-                    style=
-                    {
+                        style=
                         {
-                            marginLeft: 23,
-                            textAlign: "center"
+                            {
+                                marginLeft: 23,
+                                textAlign: "center"
+                            }
                         }
-                    }
 
 
-                >
-                    Project Status
-                </Title>
-                <Title level={4}  id="current-year-heading">Current Year - 2023</Title>
+                    >
+                        Project Status
+                    </Title>
+                    <Title level={4} id="current-year-heading">Current Year - 2023</Title>
 
 
+                </Layout>
+
+
+
+
+
+
+                <Pie {...config}
+
+
+
+                />
             </Layout>
-
-
-
-
-
-
-            <Pie {...config} 
-            
-            
-            
-            />
 
         </Layout>
 

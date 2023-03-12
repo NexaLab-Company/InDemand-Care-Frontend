@@ -1,8 +1,10 @@
 
-.table-main{
+.table-main-latest-income{
     width: 100%;
     border-radius: 10px;
     display: flex;
+    align-items: center !important;
+    padding-bottom: 100px !important;
 }
 
 #title{

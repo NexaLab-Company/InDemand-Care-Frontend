@@ -286,48 +286,52 @@ function IncomeExpense() {
         <Layout id='income-expense-layout'>
 
 
-
-            <Layout id='income-expense-container'>
-
+            <Layout id='income-expense-main-container'>
 
 
-                <Title level={3} id="income-expense-heading"
 
-                    style=
-                    {
+                <Layout id='income-expense-container'>
+
+
+
+                    <Title level={3} id="income-expense-heading"
+
+                        style=
                         {
-                            marginLeft: 23,
-                            textAlign: "center"
+                            {
+                                marginLeft: 23,
+                                textAlign: "center"
+                            }
                         }
-                    }
 
 
-                >
-                    Income & Expense
-                </Title>
-                <Title level={4} id="current-year-heading">Current Year - 2023</Title>
+                    >
+                        Income & Expense
+                    </Title>
+                    <Title level={4} id="current-year-heading">Current Year - 2023</Title>
 
 
+                </Layout>
+
+
+
+                {
+
+
+
+                    <Column {...config}
+
+
+                        style=
+                        {
+                            {
+                                width: "100%",
+                                marginTop: 50
+                            }
+                        } />
+
+                }
             </Layout>
-
-
-
-            {
-
-
-
-                <Column {...config}
-
-
-                    style=
-                    {
-                        {
-                            width: "100%",
-                            marginTop: 50
-                        }
-                    } />
-
-            }
         </Layout>
 
 

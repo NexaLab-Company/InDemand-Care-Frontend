@@ -45,10 +45,12 @@ function Accountbalance() {
       
   return (
     <Layout className='table-main'>
+      <Layout className='table-main-container'>
         <Layout style={{display: 'flex'}}>
             <Text id='title'>Account Details</Text>
         </Layout>
         <Table className='table' columns={columns} dataSource={data} pagination={false}/>
+        </Layout>
     </Layout>
     )
 }

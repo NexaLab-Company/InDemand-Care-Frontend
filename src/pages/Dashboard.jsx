@@ -4,6 +4,9 @@ import NavBar from '../components/NavBar/NavBar'
 import Accountbalance from '../components/Account Balance/Accountbalance';
 import LatestIncome from '../components/Latest Income/LatestIncome';
 import ProjectBar from "../components/ProjectBar/ProjectBar"
+import DashboardOverviewCards from '../components/Dashboard-overview-cards/DashboardOverviewCards';
+
+
 
 
 
@@ -18,6 +21,7 @@ function Dashboard() {
 
         <>
          <NavBar />
+         <DashboardOverviewCards/>
          <IncomeExpense />
          <Accountbalance />
          <ProjectBar />

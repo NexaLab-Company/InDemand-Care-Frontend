@@ -1,5 +1,6 @@
-.main {
-    background-color: #ffff;
+.main-cards-layout {
+    padding-top: 60px !important;
+    padding-bottom: 100px !important;
 }
 
 /* **************************************Heading Div *************************************/
@@ -20,7 +21,7 @@ h4 {
 }
 
 
-h3 {
+.card-div h3 {
     margin-top: -5px;
 }
 
@@ -82,7 +83,7 @@ h3 {
 /* ************************ CARD CSS********************************************************* */
 .row {
     margin-top: 40px;
-    margin-right: 150px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -98,7 +99,8 @@ h3 {
 .card-without-margin {
     width: 250px;
     border-radius: 5%;
-    box-shadow: 3px 3px 5px 1.5px lightgray
+    box-shadow: 3px 3px 5px 1.5px lightgray;
+    
 }
 .card {
     width: 250px;

@@ -16,7 +16,7 @@ function DashboardOverviewCards() {
 
 
     return (
-        <Layout className='main'>
+        <Layout className='main-cards-layout'>
           <Content>
             <div className='div'>
             <h4>Dashboard</h4>
