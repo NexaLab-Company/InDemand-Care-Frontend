@@ -1,5 +1,6 @@
 import './App.css';
 import Test from './components/Test/Test';
+import LatestIncome from './components/Latest Income/LatestIncome';
 import Accountbalance from './components/Account Balance/Accountbalance';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
