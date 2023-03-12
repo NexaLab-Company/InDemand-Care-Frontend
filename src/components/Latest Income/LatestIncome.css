@@ -1,0 +1,15 @@
+
+.table-main{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+}
+
+#title{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px 30px;
+    border-left: 3.5px solid #00FF00;
+    background-color: white;
+}
