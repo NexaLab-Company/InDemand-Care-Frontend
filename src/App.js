@@ -1,4 +1,3 @@
-import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Test from './components/Test/Test';
 import Login from './components/Login/Login';

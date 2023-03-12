@@ -15,7 +15,7 @@ function getItem(label, key, icon, children) {
   };
 }
 const items = [
-  getItem('Dashboard', 'sub1', <HomeFilled />, 
+  getItem('Dashboard', 'sub1', <HomeFilled  />, 
   [
     getItem('Overview', '1'),
     getItem('Accounting', '2')
