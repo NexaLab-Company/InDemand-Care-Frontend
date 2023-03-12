@@ -4,12 +4,17 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     height: 50px;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+
   }
 .menu-div {
   display: flex; 
   flex-direction: column; 
   align-items: center;
-   justify-content: center
+   justify-content: center;
 }
 
 .img2 {
@@ -26,39 +31,45 @@
   }
  
 
-  .menu {
-    margin-right: 85%;
-  }
-  .div {
+  .div-cards{
 
-    display: flex;
-    padding: 0 30px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: normal;
-    justify-content: normal;
-    align-items: normal;
+    display: flex !important;
+    width: calc(100% - 50px) !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+ 
   }
+
+
+@media (min-width : 1100px) {
+  
+
+  .div-cards{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    width: 100% !important;
+
+  }
+}
 
   .username {
     color: #525b69;
     display: inline-flex;
     align-items: center;
     padding: 0.6rem 0.7rem;
-    margin: 0 7.5px;
     position: relative;
     font-weight: 500;
     border-radius: 12px;
     border: 1px solid rgba(206, 206, 206, 0.2);
-    margin-right: auto;
+
   }
 
   .right-items {
     color: #C72C41;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     padding: 0.6rem 0.7rem;
-    margin: 0 7.5px;
     position: relative;
     font-weight: 500;
     border-radius: 12px;
@@ -66,20 +77,49 @@
   }
 
   @media (max-width: 499px) {
-    .div {
-      margin-left: 30px;
-      margin-top: -33px;
+   
+
+    .navbar { 
+
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: center !important;
+      justify-content: space-evenly !important;
+
+    }
+
+
+    .div-cards {
+
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: space-between!important;
+      align-items: center !important;
     }
     
   }
 
   @media (min-width: 500px) and (max-width: 1100px) {
-    .div {
-      margin-left: 30px;
-      margin-top: -33px;
+    .navbar { 
+
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      padding-left: 60px !important;
+      padding-right: 60px !important;
+
     }
-    .ant-menu-title-content {
-      font-size: 12px;
+
+
+    .div-cards {
+
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: space-between!important;
+      align-items: center !important;
+      width: calc(100% - 50px) !important;
+
     }
    
     

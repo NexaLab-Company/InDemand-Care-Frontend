@@ -5,12 +5,13 @@ import { Breadcrumb } from 'antd';
 function Breadcrumbs({title}) {
   return (
     <Breadcrumb
+    style={{marginTop:10}}
     items={[
       {
         href: '',
         title: (
           <>
-            <span style={{color: '#C72C41'}}>Dashboard</span>
+            <span style={{color: '#61D9AB',fontWeight:600}}>Dashboard</span>
           </>
         ),
       },

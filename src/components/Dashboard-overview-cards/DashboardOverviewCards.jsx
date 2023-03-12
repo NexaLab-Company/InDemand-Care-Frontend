@@ -3,7 +3,7 @@ import React from 'react'
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs'
 import './Dashboard-overview-cards.css'
 import {UserOutlined, DollarOutlined } from '@ant-design/icons'
-
+import { useState, useEffect } from 'react'
 
 
 
@@ -15,16 +15,46 @@ function DashboardOverviewCards() {
 
 
 
+  const [deviceWidth, setDeviceWidth] = useState(window.innerWidth);
+
+
+
+
+
+  const calculateDeviceWidth = () => {
+      setDeviceWidth(window.innerWidth);
+  }
+
+
+
+
+
+  useEffect(() => {
+
+      window.addEventListener('resize', calculateDeviceWidth);
+
+      return () => {
+          window.removeEventListener('resize', calculateDeviceWidth);
+      };
+
+  }, []);
+
+
+
+
+
+
+
     return (
         <Layout className='main-cards-layout'>
-          <Content>
-            <div className='div'>
+          <Content id="content">
+            <div className='div-card-overview'>
             <h4>Dashboard</h4>
           <Breadcrumbs title={'Overview'} />
           </div>
           <Row className='row'>
-            <div className='internal-div'>
-            <Col span ={6}>
+         
+            <Col span ={deviceWidth <= 499 ? 24 : deviceWidth >=500 && deviceWidth <= 1199 ? 10: 6}>
             <Card className='card-without-margin'>
         <div className='card-div'>
           
@@ -37,7 +67,7 @@ function DashboardOverviewCards() {
         </div>
       </Card>
             </Col>
-            <Col span ={6}>
+            <Col span ={deviceWidth <= 499 ? 24 : deviceWidth >=500 && deviceWidth <= 1199 ? 10 : 6}>
             <Card className='card'>
         <div className='card-div'>
         <span className='icon-two'>
@@ -49,9 +79,9 @@ function DashboardOverviewCards() {
         </div>
       </Card>
             </Col>
-            </div>
-            <div className='internal-div'>
-            <Col span ={6}>
+    
+            
+            <Col span ={deviceWidth <= 499 ? 24 : deviceWidth >=500 && deviceWidth <= 1199 ? 10 : 6}>
             <Card className='card-without-margin'>
         <div className='card-div'>
         <span className='icon-three'>
@@ -63,7 +93,7 @@ function DashboardOverviewCards() {
         </div>
       </Card>
             </Col>
-            <Col span ={6}>
+            <Col span ={deviceWidth <= 499 ? 24 : deviceWidth >=500 && deviceWidth <= 1199 ? 10 : 6}>
             <Card className='card'>
         <div className='card-div'>
         <span className='icon-four'>
@@ -75,7 +105,7 @@ function DashboardOverviewCards() {
         </div>  
       </Card>
             </Col>
-            </div>
+
           </Row>
           </Content>
         </Layout>

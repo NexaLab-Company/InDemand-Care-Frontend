@@ -50,7 +50,7 @@ const NavBar = () => {
         <Menu className="menu2" theme="light" defaultSelectedKeys={['1']} mode="inline" items={items} />
         </div>
      </Drawer> 
-     <div className="div" >
+     <div className="div-cards" >
      <div className="username">  
      Hi , Afshal Hassan
      </div>
