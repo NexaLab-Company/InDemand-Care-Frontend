@@ -1,7 +1,7 @@
 import React from 'react'
 import IncomeExpense from '../components/IncomeExpense/IncomeExpense'
 import NavBar from '../components/NavBar/NavBar'
-import Accountbalance from './components/Account Balance/Accountbalance';
+import Accountbalance from '../components/Account Balance/Accountbalance';
 
 
 
