@@ -52,8 +52,6 @@
 }
 .main {
    height: 100vh !important;
-   border-radius: 10px;
-   border: 1px solid rgba(49, 46, 46, 0.2);
    box-shadow: 3px 3px 5px 1.5px lightgray !important;
    overflow: auto !important;
 
@@ -103,7 +101,7 @@
  
   color: black;
   font-weight: 700 !important;
-  font-size: 16.5px;
+  font-size: 14.5px;
   font-family: AvertaSemiBold , sans-serif !important;
  }
 
